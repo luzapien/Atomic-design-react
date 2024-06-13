@@ -1,0 +1,12 @@
+.cards-container {
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Espacio entre las cards */
+  justify-content: space-between;
+}
+
+.card-wrapper {
+  flex: 1 1 calc(50% - 16px); /* Dos cards por fila */
+  box-sizing: border-box;
+}
